@@ -1,10 +1,3 @@
-### 1
-
-
-#################################
-############ PARTE 1 ############ 
-#################################
-
 library(readxl)
 datos <- read_excel("chicos25.xlsx")
 
@@ -91,9 +84,6 @@ for (col in numeric_cols) {
 # Eliminar outlier
 datos <- datos[datos$id != "259", ]
 
-#################################
-############ PARTE 2 ############ 
-#################################
 
 # Particion 70-30
 set.seed(666)
@@ -105,9 +95,6 @@ cat("Dimensiones del set de entrenamiento:", dim(datos_train), "\n")
 cat("Dimensiones del set de prueba:", dim(datos_test), "\n")
 
 
-#################################
-############ PARTE 3 ############ 
-#################################
 
 ### 1. Modelo completo ###
 
@@ -197,10 +184,6 @@ cat("Odds Ratios:\n")
 print(signif(odds_ratios, 4))
 
 
-### 3. Modelo a eleccion ###
-
-
-# Primero buscamos el modelo optimo (por AIC) entre todos los posibles pero resulto ser el mismo que el modelo step
 
 ## Convertir a data.frame normal, sin id
 datos_train_bin <- datos_train[, names(datos_train) != "id"]
@@ -266,9 +249,7 @@ anova(modelo_simple, modelo_step, modelo_full, test = "Chisq")
 ## AIC
 AIC(modelo_simple, modelo_step, modelo_full)
 
-#################################
-############ PARTE 4 ############ 
-#################################
+
 
 # a. Significatividad de las variables
 ## Wald
@@ -323,18 +304,11 @@ summary(influential_points_df)
 summary(datos_train)
 
 
-#################################
-############ PARTE 5 ############ 
-#################################
-
 library(e1071)
 
 modelo_bayes <- naiveBayes(mio ~.-id, data = datos_train,laplace=0) #laplace=1 para que lo habilite
 modelo_bayes
 
-#################################
-############ PARTE 6 ############ 
-#################################
 
 ### Prediccion con el modelo_step (regresion logistica) ###
 
@@ -477,9 +451,6 @@ cat("AUC =", AUC.modelo_bayes@y.values[[1]], "\n")
 
 ### Comparacion de modelos ###
 
-#################################
-######### Model Comparison ######
-#################################
 
 library(ROCR)
 library(caret)
