@@ -30,7 +30,7 @@ My profile blends technical skills (data science, backend development, visualiza
 
  📁 Proyectos destacados / Featured Projects
 
- 🔬 Ciencia de Datos
+ 🔬 Ciencia de Datos (https://github.com/LaurisInsight/portafolio-laurisinsight.git)
 - [Proyecto 1 – Predicción de precios de alojamiento (Airbnb)](https://github.com/LaurisInsight/portafolio-laurisinsight/blob/main/Analisis_Exploratorio__airbnb.py)
 - [Proyecto 2 – Análisis exploratorio con visualizaciones](link)
 
