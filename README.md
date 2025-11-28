@@ -3,7 +3,7 @@
 Portafolio profesional - Ciencia de Datos, Node.js, Power BI &amp; Low-Code
 
 Bienvenidos a mi portafolio profesional.  
-Soy Licenciada en Tecnologías Digitales con formación adicional en Ciencia de Datos y DevOps. Me especializo en el desarrollo de soluciones que integran datos, automatización y experiencia del usuario para mejorar la eficiencia operativa y la toma de decisiones estratégicas.
+Soy Licenciada en Tecnologías Digitales con Especializacion en IA y Ciencia de Datos. Me especializo en el desarrollo de soluciones que integran datos, automatización y experiencia del usuario para mejorar la eficiencia operativa y la toma de decisiones estratégicas.
 
 Mi perfil combina habilidades técnicas (ciencia de datos, desarrollo backend, visualización) con visión de negocio y enfoque colaborativo, con experiencia en entornos de integración, validación y mejora continua.
 
