@@ -22,7 +22,7 @@ My profile blends technical skills (data science, backend development, visualiza
 |-------------------------|-------------------------------------------------------------------|
 | Ciencia de Datos        | Python, Jupyter, scikit-learn, pandas, matplotlib, notebook LM    |
 | Backend (API)           | Node.js, Express, JavaScript, Postman                             |
-| Visualización           | Power BI, DAX, Power Query                                        |
+| Visualización           | Power BI,Tableau,Looker Studio,SAS, DAX, Power Query              |
 | Automatización Low-Code | Power Apps, Power Automate, SharePoint, Azure                     |
 | Gestión & DevOps        | Git, GitHub, Azure DevOps, Notion                                 |
 
@@ -53,7 +53,7 @@ My profile blends technical skills (data science, backend development, visualiza
 - 🌱 En constante aprendizaje de IA aplicada, automatización y eficiencia operativa.
 
 📧 laurisinsight@gmail.com  
-🌐 [LinkedIn]([link](https://www.linkedin.com/in/liclauragonzalez ))  
+🌐 [LinkedIn]([link](https://www.linkedin.com/in/liclauragonzalez )  
 💻 Portfolio Web (próximamente)
 
 
