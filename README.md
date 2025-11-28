@@ -53,7 +53,7 @@ My profile blends technical skills (data science, backend development, visualiza
 - 🌱 En constante aprendizaje de IA aplicada, automatización y eficiencia operativa.
 
 📧 laurisinsight@gmail.com  
-🌐 [LinkedIn]([link](https://www.linkedin.com/in/liclauragonzalez )  
+🌐 [LinkedIn](https://www.linkedin.com/in/liclauragonzalez )  
 💻 Portfolio Web (próximamente)
 
 
